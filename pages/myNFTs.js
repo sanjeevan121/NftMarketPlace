@@ -55,7 +55,7 @@ import {
      return(
          <div className="flex justify-center">
              <div className="p-4">
-                 <div class="grid grid-cols-4 gap-5 pt-6">
+                 <div className="grid grid-cols-4 gap-5 pt-6">
                      {
                     nfts.map((nft,i) => (
                      <div key={i} className="border shadow rounded-xl overflow-hidden">

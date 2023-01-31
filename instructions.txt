@@ -1,0 +1,12 @@
+1) Clone the repository provided in chat type
+	git clone https://github.com/sanjeevan121/NftMarketPlace.git 
+	in your terminal
+2) install all dependencies in root folder by typing-
+	npm install
+3) compile, test and deploy smart contracts
+	npx hardhat compile
+	npx hardhat test
+	npx hardhat node
+In a new terminal-
+	npx hardhat run scripts/deploy.js --network localhost
+
