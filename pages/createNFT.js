@@ -5,8 +5,8 @@ import {useRouter} from 'next/router'
 import Web3Modal from'web3modal'
 
 const {create} =require('ipfs-http-client')
-const projectId="2L5KgWKmUKk97IHJPjr6nbVCsz0"
-const projectSecret="f8dc6d6d4d2d32f98cebf7d1af7bd50d"
+const projectId="" //<infura nft api>
+const projectSecret="" //<infura nft api>
 
 const auth= "Basic " + Buffer.from(projectId + ":" +projectSecret).toString("base64");
 const client =create({
